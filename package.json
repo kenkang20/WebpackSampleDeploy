@@ -9,7 +9,7 @@
     "serve": "webpack-dev-server",
     "deploy-surge": "npm run build & surge -p ./dist",
     "surgelist": "surge list",
-    "deploy-git": "npm run build & git subtree push --prefix dist orign gh-pages"
+    "deploy-git": "npm run build & git subtree push --prefix dist origin gh-pages"
   },
   "repository": "https://github.com/StephenGrider/WebpackProject",
   "author": "",
