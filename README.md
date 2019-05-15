@@ -10,3 +10,12 @@ git clone https://github.com/StephenGrider/WebpackProject.git
 cd WebpackProject
 npm install
 ```
+
+
+For github Pages
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/kenkang20/WebpackSampleDeploy.git
+git checkout -b gh-pages
