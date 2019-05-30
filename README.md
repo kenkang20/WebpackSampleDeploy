@@ -19,3 +19,20 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/kenkang20/WebpackSampleDeploy.git
 git checkout -b gh-pages
+git subtree push --prefix dist origin gh-pages
+
+https://kenkang20.github.io/WebpackSampleDeploy/#/
+
+
+For AWS S3
+
+npm install -g s3-website
+s3-website create webpack-deploy(whatever)
+s3-website deploy dist
+
+
+To Run Server
+set NODE_ENV=production&node server.js
+
+For Heroku
+procfile
